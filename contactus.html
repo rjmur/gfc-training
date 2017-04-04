@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+</head>
+<body>
+	<form action="contactus.html" method="POST">
+    		First Name: <input type="text" name="firstname" /><br/><br/>
+            Last Name: <input type="text" name="lastname" /><br/><br/>
+            Email: <input type="text" name="email" /><br/><br/>
+            Type of License:
+    		<input type="radio" name="answer" value="business" checked/>Business
+    		<input type="radio" name="answer" value="personal"/>Personal<br/><br/>
+           	Reason: 
+            <select name="reason">
+  				<option value="select">Select a Reason</option>
+     			<option value="software">Software Request</option>
+  				<option value="hardware">Hardware Request</option>
+   				<option value="information">Information Request</option>
+			</select><br/><br/>
+            Additional Information: 
+            <textarea type="text"name="myTextInput">
+            </textarea><br/><br/>
+            <input type="checkbox" name="terms" value="agree" 						checked/>I have read the terms of service.<br/><br/>
+            <input type="submit"/>
+              
+		</form>
+  
+</body>
+
+</html>

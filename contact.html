@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+</head>
+<body>
+	<h1 align="center">Tasteful Diner</h1>
+	<hr>
+    <p>
+		<a href="index.html">Home</a>
+    	<a href="menu.html">Menu</a>
+    	<a href="contact.html">Contact Us</a>
+    </p>
+    <hr>
+    <br/>
+    	<form action="contact.html" method="POST" align="center">
+    		Name: <input type="text" name="name" /><br/><br/>
+            Email: <input type="text" name="email" /><br/><br/>
+            Phone: <input type="text" name="myTextInput" /><br/><br/>
+            Reason for Inquiry: 
+            <select name="reason">
+  				<option value="catering">Catering</option>
+     			<option value="private party">Private Party</option>
+  				<option value="feedback">Feedback</option>
+   				<option value="other">Other</option>
+			</select><br/><br/>
+                Additional Information: 
+                <textarea type="text" name="myTextInput">
+                </textarea><br/><br/>
+              Have you been to the restaurant?
+    		<input type="radio" name="answer" value="Yes" />Yes
+    		<input type="radio" name="answer" value="No" checked/>No<br/><br/>
+   			Best days to Contact you:<input type="checkbox" name="avail" 						value="monday" />M
+    		<input type="checkbox" name="myChoices" value="tuesday" />T
+    		<input type="checkbox" name="myChoices" value="wednesday" />W
+            <input type="checkbox" name="myChoices" value="thursday" />Th
+    		<input type="checkbox" name="myChoices" value="friday" />F<br/><br/>
+            <input type="submit"/>
+		</form><br/>
+    <hr>
+    	<p align="center">
+     	123 Diner St, Dover, NH, 03820<br/><br/>
+     603-555-5555
+     	</p>	
+</body>
+
+</html>
