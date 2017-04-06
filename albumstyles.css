@@ -12,7 +12,6 @@ h1 {
 }
 h2 {
     color: black;
-    font-style: italic;
 }
 ul {
     text-align: center;
@@ -20,6 +19,12 @@ ul {
     list-style-position: inside;
    }
 li {
-    text-align: center
+    text-align: center;
+    font-style: italic
+}
+.backgroundimage {
+    background: url(alienlanes.jpg) no-repeat;
+    width:320px;
+    height:320px;
 }
 
