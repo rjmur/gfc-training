@@ -24,7 +24,12 @@ li {
 }
 .backgroundimage {
     background: url(alienlanes.jpg) no-repeat;
+    background-position: center;
     width:320px;
     height:320px;
 }
+tr, th {
+    font-style: italic;
+}
+
 
