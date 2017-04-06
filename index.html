@@ -2,18 +2,38 @@
 <html>
 <head>
 	<title>Home</title>
+    <link href="restaurantstyles.css" 
+    rel="stylesheet"
+    type="text/css"/>
+    <style>
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: transparent;
+        }
+        a:visited {
+            color:darkred;
+        }
+        h3 {
+            border: 2px darkred dashed;
+        }
+  </style>
 </head>
 <body>
-	<h1 align="center">Tasteful Diner</h1>
-	<hr>
-    <p>
+    <header>
+		<h1>Tasteful Diner</h1>
+		<hr>
+    	<p>	
 		<a href="index.html">Home</a>
     	<a href="menu.html">Menu</a>
     	<a href="contact.html">Contact Us</a>
-    </p>
+    	</p>
+	</header>
     <hr>
     <p align="center">
-    	<img src="diner.jpg" alt="Tasteful Diner" width="400" height="150" />
+    	<img src="diner.jpg" alt="Tasteful Diner" width="400" height="150" style="border: 3px red dashed;" />
     </p>
     <p style="text-align:center">
     	<table border="1" width="400" align="center">
@@ -25,10 +45,10 @@
         </table>    
      </p>
      <hr>
-     <p align="center">
-     123 Diner St, Dover, NH, 03820<br/><br/>
+    <footer>
+     	123 Diner St, Dover, NH, 03820<br/><br/>
      603-555-5555
-     </p>
+    </footer>
     	
  </body>
 
