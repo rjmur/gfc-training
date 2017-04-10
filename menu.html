@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<div class="container-fluid"> 
 <head>
 	<title>Menu</title>
     <link href="restaurantstyles.css" 
@@ -10,19 +11,31 @@
             border: 2px darkred dashed;
         }
   </style>
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
 </head>
 <body style="background-color: salmon;">
 	<header>
 		<h1>Tasteful Diner</h1>
 		<hr>
-    	<p>	
-		<a href="index.html">Home</a>
-    	<a href="menu.html">Menu</a>
-    	<a href="contact.html">Contact Us</a>
-    	</p>
-	</header>
+    </header>
+    	<ul class="nav nav-tabs list-inline">	
+		    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+    	    <li><a href="menu.html">Menu</a></li>
+    	    <li><a href="contact.html">Contact Us</a></li>
+    	</ul>
     <hr>
     <table width="100%" align="center">
+        <div class="row">
     	<tr>
         	<td align="center">
             <h3>Burger and Fries</h3>
@@ -37,7 +50,8 @@
             An all-time favorite!  Your Choice - mild or spicy coleslaw. Served with garlic mashers.<br />$10.95
             </td>
     	</tr>
-        
+        </div>
+        <div class="row">
         <tr>
         	<td align="center">
             <h3>Tenderloin Sandwich and Chips</h3>
@@ -52,17 +66,21 @@
             A taste of Texas! Smoked brisket on thick-cut Texas toast. Coleslaw. Served with our famous thick-cut french fries.<br />$7.95
             </td>
     	</tr>
+        </div>
     </table><br/><br/>
     <table width="250" align="center">
+       <div class="row">
     	<caption><h2>Beverages</h2></caption>
-        <tr>
-        	<td align="center">
+            <tr>
+            <td align="center">
             <h3>Root Beer</h3>
             </td>
             <td align="left">
             <h4>$3.00</h4>
             </td>
         </tr>
+       </div>
+          <div class="row">
         <tr>
         	<td align="center">
             <h3>Bottled Water</h3>
@@ -71,6 +89,8 @@
             <h4>$1.25</h4>
             </td>
         </tr>
+        </div>
+        <div class="row">
         <tr>
         	<td align="center">
             <h3>Lemonade</h3>
@@ -79,6 +99,8 @@
             <h4>$1.00</h4>
             </td>
         </tr>
+        </div>
+        <div class="row">
         <tr>
         	<td align="center">
             <h3>Iced Tea</h3>
@@ -87,6 +109,7 @@
             <h4>$1.25</h4>
             </td>
         </tr>
+        </div>
     </table>    
     <hr>
     <footer>
@@ -94,7 +117,7 @@
      603-555-5555
     </footer>	
 </body>
-
+</div>
 </html>
 
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+	<div class="container-fluid"> 
 <head>
 	<title>Contact Us</title>
 	<link href="restaurantstyles.css" 
@@ -10,20 +11,32 @@
             border: 2px darkred dashed;
         }
   </style>
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
 </head>
 <body>
+	<div class="col-sm-12">
 	<header>
 		<h1>Tasteful Diner</h1>
 		<hr>
-    	<p>	
-		<a href="index.html">Home</a>
-    	<a href="menu.html">Menu</a>
-    	<a href="contact.html">Contact Us</a>
-    	</p>
-	</header>
-    <hr>
+    </header>
+    <ul class="nav nav-tabs list-inline">	
+	    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+	<hr>
     <br/>
-    	<form action="contact.html" method="POST" align="center">
+    	<form action="mailto:rj.murphy@libertymutual.com" method="POST" align="center">
     	    Name: <input type="text" name="name" /><br/><br/>
             Email: <input type="text" name="email" /><br/><br/>
             Phone: <input type="text" name="myTextInput" /><br/><br/>
@@ -52,6 +65,7 @@
     	123 Diner St, Dover, NH, 03820<br/><br/>
      603-555-5555
     </footer>	 	
+</div>
 </body>
-
+</div>
 </html>

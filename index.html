@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<div class="container-fluid">    
 <head>
 	<title>Home</title>
     <link href="restaurantstyles.css" 
@@ -13,18 +14,36 @@
             font-family: 'Comic Sans';
         }
   </style>
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
 </head>
-<body>
+<body style="text-align:center">
+  <div class="row">  
     <header>
 		<h1 style="font-family:monospace;">Tasteful Diner</h1>
-		<hr>
-    	<p>	
-		<a href="index.html">Home</a>
-    	<a href="menu.html">Menu</a>
-    	<a href="contact.html">Contact Us</a>
-    	</p>
-	</header>
-    <hr>
+    </header>
+    <div class="container">
+  <div class="jumbotron">
+    <h1>New Location!</h1> 
+    <p>We're pleased to announce that we will be opening a new location across the street from our current location!</p> 
+  </div>
+  </div>
+	<hr>
+       	<ul class="nav nav-tabs list-inline">	
+		    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+    	    <li><a href="menu.html">Menu</a></li>
+    	    <li><a href="contact.html">Contact Us</a></li>
+    	</ul>
+      <hr>
 <div style="background-color: salmon;">
     <p align="center">
     	<img src="diner.jpg" alt="Tasteful Diner" width="400" height="150" style="border: 3px darkred dashed;" />
@@ -44,7 +63,7 @@
      	123 Diner St, Dover, NH, 03820<br/><br/>
      603-555-5555
     </footer>
-    	
+   </div> 	
  </body>
-
+</div>
 </html>
